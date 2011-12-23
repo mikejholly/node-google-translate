@@ -1,0 +1,11 @@
+{
+  "name"          : "node-google-translate",
+  "description"   : "Simple library for talking to Google's Translate API.",
+  "version"       : "0.1",
+  "author"        : "Mike Holly",
+  "homepage"      : "http://github.com/mikejholly/node-google-translate",
+  "repository"    : {"type" : "git", "url" : "http://github.com/mikejholly/node-google-translate.git"},
+  "dependencies"  : [],
+  "main"          : "./lib/translate.js",
+  "keywords"      : ["i18n", "l10n"]
+}
