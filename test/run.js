@@ -1,7 +1,7 @@
 var translate = require('../lib/translate')
   , assert = require('assert')
 
-var key = 'AIzaSyD5GphQTY4xd6AeKhn-juYBun5cP8uikv0';
+var key = '<your-secret>';
 
 translate({key: key, q: 'my test', target: 'fr'}, function(result){
   assert.equal(result['my test'], 'mon test');
